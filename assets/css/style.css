@@ -1,0 +1,203 @@
+
+body {
+  
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+/* Hero CSS */
+
+#headline {
+  position:relative;
+  right: 0px;
+  top: 100px;
+  padding: 25px;
+  z-index: 100;
+}
+#headline h1 {
+  font-weight: 700;
+}
+span {
+  color: red;
+  font-weight: 900;
+}
+
+/* Nav CSS */
+#navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0px 25%; 
+  position: sticky;
+}
+#logo {
+  position: sticky;
+  display: flex;
+  width: 150px;
+  
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+}
+#navBar img {
+  margin-top: 0px;
+  
+  width: 100%;
+  position: relative;
+}
+#navBarsm {
+  width: 100%;
+  margin: 0 25%;
+}
+#navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#navigation {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: flex-end;
+}
+#navigation p {
+  cursor: crosshair;
+  padding: 0 20px;
+  text-decoration: red;
+  font-weight: bold;
+}
+  
+/* Grid CSS */
+
+#heroGrid {
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 25%;
+  color: white;
+  font-weight: 100;
+  font-size: 36px;
+  min-height: 600px;
+  height: 70vh;
+}
+#bodyGrid {
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 25%;
+  color: white;
+  font-weight: 100;
+  font-size: 36px;
+  height: 40vh;
+}
+#featuredWork {
+  margin: 250px 25%;
+  
+  
+}
+#flexWork {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 1fr;
+  align-items: flex-start;
+}
+.flexProject img {
+  width: 300px;
+}
+#featuredWork h1{
+  font-size: 32px;
+  margin: 50px 0 150px 0;
+  font-weight: 700;
+}
+#myWork h1{
+  font-size: 32px;
+  font-weight: 700;
+}
+#myWork {
+  margin: 0 25%;
+}
+
+.workGrid {
+  margin: 100px 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: max-content;
+  grid-template-areas: "heroImage description";
+}
+.heroImage img {
+  width: 750px;
+}
+.description {
+  grid-area: description;
+
+}
+.title {
+  grid-area: title;
+}
+.link {
+  grid-area: link;
+}
+
+
+
+
+
+
+.highlight {
+  color: #FF0000;
+  font-weight: 900;
+}
+
+/* Typography CSS */
+h1 {
+  font-weight: 100;
+}
+#footer {
+  margin: 0px 25%;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    grid-row-start: 5;
+    min-height: 70px;
+    /* height: 70vh; 
+    grid-template-rows: 75% 25%;*/
+    grid-template-columns: 100%;
+}
+hr {
+  margin: 0px;
+  display: block;
+  border: #f00 0.25px solid;
+}
+/* Typography CSS */
+
+h2 {
+  font-size: 60px;
+  margin: 0px 0px;
+  color: #FF6200;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+h5 {
+  color: #f00;
+  font-weight: 700;
+  font-size: 16px;
+}
+h6 {
+  color: white;
+  font-weight: 100;
+  font-size: 12px;
+}
