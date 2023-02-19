@@ -5,34 +5,6 @@ body {
   color: white;
 }
 
-/* Hero CSS */
-#hero {
-  background-size: cover;
-  height: 100vh;
-}
-/* NavBar CSS*/
-
-.navbar-collapse {
-  flex-grow: unset;
-}
-.navbar-expand-lg .navbar-nav li {
-  padding:5%;
-}
-nav{
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-nav .hamburger {
-  width:150px ;
-  text-align: right;
-}
-.nav-link.active {
-  font-weight: 800;
-  text-decoration: none;
-  color: #f00;
-
-}
 
 
 
@@ -87,13 +59,13 @@ span {
   text-decoration: none;
   color: #ffffff;
 }
-#navigation {
+#navigation ul {
   display: flex;
   width: 25%;
   align-items: center;
   justify-content: flex-end;
 }
-#navigation p {
+#navigation li {
   cursor: crosshair;
   padding: 0 20px;
   text-decoration: red;
