@@ -1,12 +1,40 @@
 
 body {
-  
   background-color: black;
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
 
 /* Hero CSS */
+#hero {
+  background-size: cover;
+  height: 100vh;
+}
+/* NavBar CSS*/
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+  padding:5%;
+}
+nav{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+nav .hamburger {
+  width:150px ;
+  text-align: right;
+}
+.nav-link.active {
+  font-weight: 800;
+  text-decoration: none;
+  color: #f00;
+
+}
+
+
 
 #headline {
   position:relative;
