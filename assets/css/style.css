@@ -30,7 +30,7 @@ span {
   justify-content: space-between;
   align-items: flex-start;
   margin: 0px 25%; 
-  position: sticky;
+  
 }
 #logo {
   position: sticky;
@@ -46,9 +46,10 @@ span {
 }
 #navBar img {
   margin-top: 0px;
-  
+  position: fixed;
+  height: 70px;
   width: 100%;
-  position: relative;
+  display: none;
 }
 #navBarsm {
   width: 100%;
