@@ -1,11 +1,11 @@
 console.log("Your index.js file is loaded correctly!");
 
 $(window).scroll(function () {
-    if ( $(this).scrollTop() > 200 && !$('navBar img').hasClass('open') ) {
-      $('navBar img').addClass('open');
-      $('navBar img').slideDown();
+    if ( $(this).scrollTop() > 200 && !$('header').hasClass('open') ) {
+      $('header').addClass('open');
+      $('header').slideDown();
      } else if ( $(this).scrollTop() <= 200 ) {
-      $('navBar img').removeClass('open');
-      $('navBar img').slideUp();
+      $('header').removeClass('open');
+      $('header').slideUp();
     }
   });
