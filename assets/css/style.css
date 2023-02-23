@@ -4,11 +4,16 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
-#navbar-brand img {
+.navbar-inner {
+  height: 100%;
+  position: relative;
+
+}
+.navbar-brand img {
   width: 100px;
   height: 37.5px;
 }
-
+ 
 
 
 #headline {
