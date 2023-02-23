@@ -67,6 +67,11 @@ span {
   text-decoration: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+.nav-link.active {
+  color: red!important;
+  font-weight: 700;
+  text-decoration: none;
+}
 nav .hamburger {
   width: 180px;
   text-align: right;
