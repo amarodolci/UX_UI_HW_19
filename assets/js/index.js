@@ -13,13 +13,18 @@ $(body).scroll(function () {
 const $icon = document.querySelector('.icon');
 const $arrow = document.querySelector('.arrow');
 
-$icon.mouseenter = () => {
+$icon.onclick = () => {
   $arrow.animate([
-    {left: '0'},
-    {left: '10px'},
-    {left: '0'}
+    {top: '0'},
+    {top: '10px'},
+    {top: '0'}
   ],{
     duration: 700,
     iterations: Infinity
   });
 }
+$(document).ready(function(){
+  $("#show").hover(function(){
+    $("#navlogo").show();
+  });
+});
